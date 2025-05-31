@@ -11,6 +11,8 @@ public class Main {
                arr[i]=sc.nextInt();
            }
            SortArray obj=new SortArray();
-        System.out.println(obj.sortRotateArray(arr));
+           ConsecutiveOne obj2=new ConsecutiveOne();
+        System.out.println(obj2.maximumOne(arr));
+
     }
 }
